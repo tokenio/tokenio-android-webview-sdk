@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.9.1" type="incidents">
+
+    <incident
+        id="UnknownId"
+        severity="fatal"
+        message="The id &quot;`accountNameInputLayout`&quot; is not defined anywhere.">
+        <location
+            file="${:app*release*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="395"
+            column="17"
+            startOffset="17119"
+            endLine="395"
+            endColumn="82"
+            endOffset="17184"/>
+    </incident>
+
+    <incident
+        id="NotSibling"
+        severity="fatal"
+        message="`@+id/amountInput` is not a sibling in the same `ConstraintLayout`">
+        <location
+            file="${:app*release*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="340"
+            column="17"
+            startOffset="14697"
+            endLine="340"
+            endColumn="71"
+            endOffset="14751"/>
+    </incident>
+
+</incidents>
