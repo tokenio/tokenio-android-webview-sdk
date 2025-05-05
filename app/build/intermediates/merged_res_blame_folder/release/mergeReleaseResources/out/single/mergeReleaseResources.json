@@ -1,0 +1,130 @@
+[
+    {
+        "merged": "com.example.paymentdemoandroid.app-release-33:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.paymentdemoandroid.app-main-34:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.paymentdemoandroid.app-release-33:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.paymentdemoandroid.app-main-34:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.paymentdemoandroid.app-release-33:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.paymentdemoandroid.app-main-34:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.paymentdemoandroid.app-release-33:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.paymentdemoandroid.app-main-34:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.paymentdemoandroid.app-release-33:/mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.paymentdemoandroid.app-main-34:/mipmap-mdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.example.paymentdemoandroid.app-release-33:/mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.paymentdemoandroid.app-main-34:/mipmap-hdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.example.paymentdemoandroid.app-release-33:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.paymentdemoandroid.app-main-34:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.paymentdemoandroid.app-release-33:/drawable-hdpi_ic_bank_white_24dp.png.flat",
+        "source": "com.example.paymentdemoandroid.app-pngs-29:/drawable-hdpi/ic_bank_white_24dp.png"
+    },
+    {
+        "merged": "com.example.paymentdemoandroid.app-release-33:/xml_backup_rules.xml.flat",
+        "source": "com.example.paymentdemoandroid.app-main-34:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.paymentdemoandroid.app-release-33:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.paymentdemoandroid.app-main-34:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.paymentdemoandroid.app-release-33:/layout_activity_main.xml.flat",
+        "source": "com.example.paymentdemoandroid.app-main-34:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.paymentdemoandroid.app-release-33:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.paymentdemoandroid.app-main-34:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.paymentdemoandroid.app-release-33:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.paymentdemoandroid.app-main-34:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.paymentdemoandroid.app-release-33:/layout_activity_payment_result.xml.flat",
+        "source": "com.example.paymentdemoandroid.app-main-34:/layout/activity_payment_result.xml"
+    },
+    {
+        "merged": "com.example.paymentdemoandroid.app-release-33:/mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.paymentdemoandroid.app-main-34:/mipmap-xxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.example.paymentdemoandroid.app-release-33:/mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.paymentdemoandroid.app-main-34:/mipmap-xxxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.example.paymentdemoandroid.app-release-33:/drawable-mdpi_ic_bank_white_24dp.png.flat",
+        "source": "com.example.paymentdemoandroid.app-pngs-29:/drawable-mdpi/ic_bank_white_24dp.png"
+    },
+    {
+        "merged": "com.example.paymentdemoandroid.app-release-33:/layout_activity_payment_webview.xml.flat",
+        "source": "com.example.paymentdemoandroid.app-main-34:/layout/activity_payment_webview.xml"
+    },
+    {
+        "merged": "com.example.paymentdemoandroid.app-release-33:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.paymentdemoandroid.app-main-34:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.paymentdemoandroid.app-release-33:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.paymentdemoandroid.app-main-34:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.paymentdemoandroid.app-release-33:/drawable_product_placeholder.xml.flat",
+        "source": "com.example.paymentdemoandroid.app-main-34:/drawable/product_placeholder.xml"
+    },
+    {
+        "merged": "com.example.paymentdemoandroid.app-release-33:/drawable-xxhdpi_ic_bank_white_24dp.png.flat",
+        "source": "com.example.paymentdemoandroid.app-pngs-29:/drawable-xxhdpi/ic_bank_white_24dp.png"
+    },
+    {
+        "merged": "com.example.paymentdemoandroid.app-release-33:/mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.paymentdemoandroid.app-main-34:/mipmap-xhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.example.paymentdemoandroid.app-release-33:/drawable-ldpi_ic_bank_white_24dp.png.flat",
+        "source": "com.example.paymentdemoandroid.app-pngs-29:/drawable-ldpi/ic_bank_white_24dp.png"
+    },
+    {
+        "merged": "com.example.paymentdemoandroid.app-release-33:/layout_activity_web_view.xml.flat",
+        "source": "com.example.paymentdemoandroid.app-main-34:/layout/activity_web_view.xml"
+    },
+    {
+        "merged": "com.example.paymentdemoandroid.app-release-33:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.paymentdemoandroid.app-main-34:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.paymentdemoandroid.app-release-33:/drawable-xhdpi_ic_bank_white_24dp.png.flat",
+        "source": "com.example.paymentdemoandroid.app-pngs-29:/drawable-xhdpi/ic_bank_white_24dp.png"
+    },
+    {
+        "merged": "com.example.paymentdemoandroid.app-release-33:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.paymentdemoandroid.app-main-34:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.paymentdemoandroid.app-release-33:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.paymentdemoandroid.app-main-34:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.paymentdemoandroid.app-release-33:/drawable-anydpi-v24_ic_bank_white_24dp.xml.flat",
+        "source": "com.example.paymentdemoandroid.app-pngs-29:/drawable-anydpi-v24/ic_bank_white_24dp.xml"
+    },
+    {
+        "merged": "com.example.paymentdemoandroid.app-release-33:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.paymentdemoandroid.app-main-34:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.paymentdemoandroid.app-release-33:/drawable-xxxhdpi_ic_bank_white_24dp.png.flat",
+        "source": "com.example.paymentdemoandroid.app-pngs-29:/drawable-xxxhdpi/ic_bank_white_24dp.png"
+    }
+]

@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.paymentdemoandroid.app-mergeDebugResources-31:/values-small-v4/values-small-v4.xml",
+            "map": [
+                {
+                    "source": "/Users/joshlister/.gradle/caches/8.11.1/transforms/ea122f5b3a1d52d88ec193483631688d/transformed/material-1.11.0/res/values-small-v4/values-small-v4.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,128,198,270",
+                        "endColumns": "72,69,71,69",
+                        "endOffsets": "123,193,265,335"
+                    }
+                }
+            ]
+        }
+    ]
+}

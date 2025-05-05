@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "com.example.paymentdemoandroid.app-mergeReleaseResources-32:/layout/activity_web_view.xml",
+        "source": "com.example.paymentdemoandroid.app-main-34:/layout/activity_web_view.xml"
+    },
+    {
+        "merged": "com.example.paymentdemoandroid.app-mergeReleaseResources-32:/layout/activity_main.xml",
+        "source": "com.example.paymentdemoandroid.app-main-34:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.paymentdemoandroid.app-mergeReleaseResources-32:/layout/activity_payment_webview.xml",
+        "source": "com.example.paymentdemoandroid.app-main-34:/layout/activity_payment_webview.xml"
+    },
+    {
+        "merged": "com.example.paymentdemoandroid.app-mergeReleaseResources-32:/layout/activity_payment_result.xml",
+        "source": "com.example.paymentdemoandroid.app-main-34:/layout/activity_payment_result.xml"
+    }
+]

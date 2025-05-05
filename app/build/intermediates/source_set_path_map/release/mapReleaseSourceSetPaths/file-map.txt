@@ -1,0 +1,36 @@
+com.example.paymentdemoandroid.app-jetified-savedstate-1.2.1-0 /Users/joshlister/.gradle/caches/8.11.1/transforms/0c3b6ec72f0539fc933b0fb6033ed24b/transformed/jetified-savedstate-1.2.1/res
+com.example.paymentdemoandroid.app-core-runtime-2.2.0-1 /Users/joshlister/.gradle/caches/8.11.1/transforms/23402f811950cbdfdafb1794d417c9da/transformed/core-runtime-2.2.0/res
+com.example.paymentdemoandroid.app-core-1.12.0-2 /Users/joshlister/.gradle/caches/8.11.1/transforms/2ae5e7af538b5c989f6b954b122310e3/transformed/core-1.12.0/res
+com.example.paymentdemoandroid.app-jetified-viewpager2-1.0.0-3 /Users/joshlister/.gradle/caches/8.11.1/transforms/2cb2778508fe4f3aaacb1ea96f66fcf1/transformed/jetified-viewpager2-1.0.0/res
+com.example.paymentdemoandroid.app-coordinatorlayout-1.1.0-4 /Users/joshlister/.gradle/caches/8.11.1/transforms/34e6290978e59edad303571903eff0c4/transformed/coordinatorlayout-1.1.0/res
+com.example.paymentdemoandroid.app-jetified-lifecycle-viewmodel-savedstate-2.7.0-5 /Users/joshlister/.gradle/caches/8.11.1/transforms/3a3522a31f2b7b719050d0117b5dcdd3/transformed/jetified-lifecycle-viewmodel-savedstate-2.7.0/res
+com.example.paymentdemoandroid.app-recyclerview-1.1.0-6 /Users/joshlister/.gradle/caches/8.11.1/transforms/3f2211c43e11c2f5a5919357e5a1bf57/transformed/recyclerview-1.1.0/res
+com.example.paymentdemoandroid.app-appcompat-1.6.1-7 /Users/joshlister/.gradle/caches/8.11.1/transforms/45210c242f583b077262dfc15d8a4565/transformed/appcompat-1.6.1/res
+com.example.paymentdemoandroid.app-lifecycle-viewmodel-2.7.0-8 /Users/joshlister/.gradle/caches/8.11.1/transforms/4855716f3a4571c488526604ec9c9cd0/transformed/lifecycle-viewmodel-2.7.0/res
+com.example.paymentdemoandroid.app-jetified-lifecycle-process-2.7.0-9 /Users/joshlister/.gradle/caches/8.11.1/transforms/4e4371c86fcc367799d19be0982d10d7/transformed/jetified-lifecycle-process-2.7.0/res
+com.example.paymentdemoandroid.app-lifecycle-runtime-2.7.0-10 /Users/joshlister/.gradle/caches/8.11.1/transforms/589bb23de26ae96ce39d62ba84f87b35/transformed/lifecycle-runtime-2.7.0/res
+com.example.paymentdemoandroid.app-jetified-appcompat-resources-1.6.1-11 /Users/joshlister/.gradle/caches/8.11.1/transforms/639a3464bc27adf46eb1d4677167fc9f/transformed/jetified-appcompat-resources-1.6.1/res
+com.example.paymentdemoandroid.app-jetified-lifecycle-livedata-core-ktx-2.7.0-12 /Users/joshlister/.gradle/caches/8.11.1/transforms/66b623d47f5da9d1182b79f078371d50/transformed/jetified-lifecycle-livedata-core-ktx-2.7.0/res
+com.example.paymentdemoandroid.app-jetified-startup-runtime-1.1.1-13 /Users/joshlister/.gradle/caches/8.11.1/transforms/679584a16c93ccd9524bb2361af1e810/transformed/jetified-startup-runtime-1.1.1/res
+com.example.paymentdemoandroid.app-fragment-1.3.6-14 /Users/joshlister/.gradle/caches/8.11.1/transforms/70df14e0daac4c1a8a39e835610c24ca/transformed/fragment-1.3.6/res
+com.example.paymentdemoandroid.app-constraintlayout-2.1.4-15 /Users/joshlister/.gradle/caches/8.11.1/transforms/75066c313975b4ba2c265624340581db/transformed/constraintlayout-2.1.4/res
+com.example.paymentdemoandroid.app-jetified-lifecycle-runtime-ktx-2.7.0-16 /Users/joshlister/.gradle/caches/8.11.1/transforms/7af5511de7d8719e5389a26e1fb05d75/transformed/jetified-lifecycle-runtime-ktx-2.7.0/res
+com.example.paymentdemoandroid.app-jetified-profileinstaller-1.3.0-17 /Users/joshlister/.gradle/caches/8.11.1/transforms/9a51157ee11977f819b7ea1149f24734/transformed/jetified-profileinstaller-1.3.0/res
+com.example.paymentdemoandroid.app-jetified-emoji2-views-helper-1.2.0-18 /Users/joshlister/.gradle/caches/8.11.1/transforms/b080ad4c3bd986c4c531f515164fcb02/transformed/jetified-emoji2-views-helper-1.2.0/res
+com.example.paymentdemoandroid.app-jetified-annotation-experimental-1.3.0-19 /Users/joshlister/.gradle/caches/8.11.1/transforms/ccb5f5e933d79e6c9fe8d9c7f39ae292/transformed/jetified-annotation-experimental-1.3.0/res
+com.example.paymentdemoandroid.app-drawerlayout-1.1.1-20 /Users/joshlister/.gradle/caches/8.11.1/transforms/cf0412c484778db35f74dcba7807aae7/transformed/drawerlayout-1.1.1/res
+com.example.paymentdemoandroid.app-lifecycle-livedata-core-2.7.0-21 /Users/joshlister/.gradle/caches/8.11.1/transforms/d538e3b040aa542f9d88afa394c9716b/transformed/lifecycle-livedata-core-2.7.0/res
+com.example.paymentdemoandroid.app-transition-1.2.0-22 /Users/joshlister/.gradle/caches/8.11.1/transforms/e195585cb2227612ccc34579b9347f52/transformed/transition-1.2.0/res
+com.example.paymentdemoandroid.app-lifecycle-livedata-2.7.0-23 /Users/joshlister/.gradle/caches/8.11.1/transforms/e638cdeddcca474a4037edc91034d87f/transformed/lifecycle-livedata-2.7.0/res
+com.example.paymentdemoandroid.app-material-1.11.0-24 /Users/joshlister/.gradle/caches/8.11.1/transforms/ea122f5b3a1d52d88ec193483631688d/transformed/material-1.11.0/res
+com.example.paymentdemoandroid.app-jetified-core-ktx-1.12.0-25 /Users/joshlister/.gradle/caches/8.11.1/transforms/eca484b361273d77d88f27aeeff85e12/transformed/jetified-core-ktx-1.12.0/res
+com.example.paymentdemoandroid.app-cardview-1.0.0-26 /Users/joshlister/.gradle/caches/8.11.1/transforms/f6e2b2a42b8e47291efb8c5e0ac8b6a5/transformed/cardview-1.0.0/res
+com.example.paymentdemoandroid.app-jetified-emoji2-1.2.0-27 /Users/joshlister/.gradle/caches/8.11.1/transforms/fe016c34c994c2d74e061f3782bd1a40/transformed/jetified-emoji2-1.2.0/res
+com.example.paymentdemoandroid.app-jetified-activity-1.8.0-28 /Users/joshlister/.gradle/caches/8.11.1/transforms/fe9b04937adbd1a3c956f23487c8fe70/transformed/jetified-activity-1.8.0/res
+com.example.paymentdemoandroid.app-pngs-29 /Users/joshlister/Documents/iOS apps/TokenTestAndroid/app/build/generated/res/pngs/release
+com.example.paymentdemoandroid.app-resValues-30 /Users/joshlister/Documents/iOS apps/TokenTestAndroid/app/build/generated/res/resValues/release
+com.example.paymentdemoandroid.app-packageReleaseResources-31 /Users/joshlister/Documents/iOS apps/TokenTestAndroid/app/build/intermediates/incremental/release/packageReleaseResources/merged.dir
+com.example.paymentdemoandroid.app-packageReleaseResources-32 /Users/joshlister/Documents/iOS apps/TokenTestAndroid/app/build/intermediates/incremental/release/packageReleaseResources/stripped.dir
+com.example.paymentdemoandroid.app-release-33 /Users/joshlister/Documents/iOS apps/TokenTestAndroid/app/build/intermediates/merged_res/release/mergeReleaseResources
+com.example.paymentdemoandroid.app-main-34 /Users/joshlister/Documents/iOS apps/TokenTestAndroid/app/src/main/res
+com.example.paymentdemoandroid.app-release-35 /Users/joshlister/Documents/iOS apps/TokenTestAndroid/app/src/release/res
