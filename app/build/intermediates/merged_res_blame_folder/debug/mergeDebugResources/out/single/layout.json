@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/Users/samfrench/.gradle/daemon/8.11.1/com.example.paymentdemoandroid.app-mergeDebugResources-32:/layout/activity_payment_result.xml",
+        "source": "/Users/samfrench/.gradle/daemon/8.11.1/com.example.paymentdemoandroid.app-main-35:/layout/activity_payment_result.xml"
+    },
+    {
+        "merged": "/Users/samfrench/.gradle/daemon/8.11.1/com.example.paymentdemoandroid.app-mergeDebugResources-32:/layout/activity_main.xml",
+        "source": "/Users/samfrench/.gradle/daemon/8.11.1/com.example.paymentdemoandroid.app-main-35:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.paymentdemoandroid.app-mergeDebugResources-32:/layout/activity_main.xml",
+        "source": "com.example.paymentdemoandroid.app-main-35:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/samfrench/.gradle/daemon/8.11.1/com.example.paymentdemoandroid.app-mergeDebugResources-32:/layout/activity_web_view.xml",
+        "source": "/Users/samfrench/.gradle/daemon/8.11.1/com.example.paymentdemoandroid.app-main-35:/layout/activity_web_view.xml"
+    },
+    {
+        "merged": "/Users/samfrench/.gradle/daemon/8.11.1/com.example.paymentdemoandroid.app-mergeDebugResources-32:/layout/activity_payment_webview.xml",
+        "source": "/Users/samfrench/.gradle/daemon/8.11.1/com.example.paymentdemoandroid.app-main-35:/layout/activity_payment_webview.xml"
+    }
+]
