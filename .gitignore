@@ -4,6 +4,9 @@
 *.ap_
 *.aab
 
+# APK output directory
+APK/
+
 # Files for the ART/Dalvik VM
 *.dex
 
