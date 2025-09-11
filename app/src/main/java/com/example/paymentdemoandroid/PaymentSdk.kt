@@ -56,6 +56,7 @@ object PaymentSdk {
         // Launch payment initiation in coroutine
         CoroutineScope(Dispatchers.Main).launch {
             try {
+                Log.d(TAG, "Initiating payment - Amount: '${paymentRequest.initiation.amount.value}', Currency: '${paymentRequest.initiation.amount.currency}'")
                 val repository = PaymentRepository()
                 val response = repository.initiatePayment(paymentRequest)
                 if (response.isSuccessful && response.body() != null) {

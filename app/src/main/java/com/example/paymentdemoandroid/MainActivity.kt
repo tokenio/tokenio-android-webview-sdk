@@ -24,6 +24,7 @@ import com.squareup.moshi.kotlin.reflect.KotlinJsonAdapterFactory
 import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.launch
 import java.util.UUID
+import java.util.Locale
 
 class MainActivity : AppCompatActivity() {
     private var paymentHandledByIntent = false
@@ -36,6 +37,14 @@ class MainActivity : AppCompatActivity() {
 
     companion object {
         private const val TAG = "MainActivity"
+        
+        /**
+         * Safely formats an amount for API calls using English locale to avoid
+         * locale-specific decimal separators (e.g., comma in French locale)
+         */
+        private fun formatAmountForApi(amount: Double): String {
+            return String.format(Locale.ENGLISH, "%.2f", amount)
+        }
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -160,7 +169,16 @@ class MainActivity : AppCompatActivity() {
         Log.d("MainActivity", "Starting payment flow...")
 
         val amountStr = binding.amountInput.text.toString()
-        val amountValue = try { "%.2f".format(amountStr.toDouble()) } catch (e: Exception) { "0.00" }
+        val amountValue = try { 
+            val parsedAmount = amountStr.toDouble()
+            val formattedAmount = formatAmountForApi(parsedAmount)  // Fixed version
+            // val formattedAmount = "%.2f".format(parsedAmount)  // Problematic version - uses device locale
+            Log.d("MainActivity", "Amount formatting - Input: '$amountStr', Locale: ${Locale.getDefault()}, Formatted: '$formattedAmount'")
+            formattedAmount
+        } catch (e: Exception) { 
+            Log.e("MainActivity", "Failed to format amount: $amountStr", e)
+            "0.00" 
+        }
         val currency = if (binding.gbpRadioButton.isChecked) "GBP" else "EUR"
         val payeeName = binding.payeeNameEditText.text.toString()
         val localInstrument: String
@@ -205,6 +223,8 @@ class MainActivity : AppCompatActivity() {
             ),
             pispConsentAccepted = true
         )
+
+        Log.d("MainActivity", "PaymentRequest created - Amount: '${paymentRequest.initiation.amount.value}', Currency: '${paymentRequest.initiation.amount.currency}'")
 
         PaymentSdk.startPaymentFlow(
             activity = this,

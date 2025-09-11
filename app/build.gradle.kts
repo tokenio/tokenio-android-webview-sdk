@@ -2,6 +2,7 @@ plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
     id("com.google.devtools.ksp") // KSP for Moshi
+    id("com.google.gms.google-services")
 }
 
 android {
@@ -21,7 +22,7 @@ android {
         val betaApiKey: String = project.properties["BETA_API_KEY"] as? String ?: "your_beta_api_key_here"
 
         // Expose BETA API key to BuildConfig
-        buildConfigField("String", "BETA_API_KEY", "\"$betaApiKey\"")
+        buildConfigField("String", "BETA_API_KEY", "\"${betaApiKey}\"")
     }
 
     buildTypes {
@@ -45,7 +46,7 @@ android {
         viewBinding = true
         buildConfig = true // Enable BuildConfig generation
     }
-    
+
     testOptions {
         unitTests {
             isIncludeAndroidResources = true
@@ -74,11 +75,14 @@ dependencies {
     // Coroutines
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3")
 
+//    firebase
+    implementation(platform("com.google.firebase:firebase-bom:33.1.1"))
+    implementation("com.google.firebase:firebase-analytics")
     // Testing
     testImplementation("junit:junit:4.13.2")
     testImplementation("org.mockito:mockito-core:5.7.0")
     testImplementation("org.mockito.kotlin:mockito-kotlin:5.2.0")
-    
+
     // ByteBuddy compatibility for Java 23
     testImplementation("net.bytebuddy:byte-buddy:1.15.10")
     testImplementation("net.bytebuddy:byte-buddy-agent:1.15.10")

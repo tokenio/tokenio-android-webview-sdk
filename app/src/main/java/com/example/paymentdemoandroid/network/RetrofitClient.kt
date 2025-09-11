@@ -18,33 +18,33 @@ object RetrofitClient {
         .build()
 
     private val loggingInterceptor = HttpLoggingInterceptor().apply {
-        level = HttpLoggingInterceptor.Level.BODY 
+        level = HttpLoggingInterceptor.Level.BODY
     }
 
     private class AuthInterceptor : Interceptor {
         override fun intercept(chain: Interceptor.Chain): Response {
             val originalRequest = chain.request()
             val apiKey = Constants.selectedEnvironment.apiKey
-            Log.d("AuthInterceptor", "Using API Key for ${Constants.selectedEnvironment.displayName}") 
+            Log.d("AuthInterceptor", "Using API Key for ${Constants.selectedEnvironment.displayName}")
             val newRequest = originalRequest.newBuilder()
-                .header("Authorization", "Basic $apiKey") 
-                .header("Content-Type", "application/json") 
+                .header("Authorization", "Basic $apiKey")
+                .header("Content-Type", "application/json")
                 .build()
             return chain.proceed(newRequest)
         }
     }
 
     private val okHttpClient = OkHttpClient.Builder()
-        .addInterceptor(AuthInterceptor()) 
-        .addInterceptor(loggingInterceptor) 
+        .addInterceptor(AuthInterceptor())
+        .addInterceptor(loggingInterceptor)
         .build()
 
     fun getApiService(): ApiService {
         val currentEnvironment = Constants.selectedEnvironment
         Log.d("RetrofitClient", "Creating ApiService for ${currentEnvironment.displayName} with URL: ${currentEnvironment.baseUrl}")
         return Retrofit.Builder()
-            .baseUrl(currentEnvironment.baseUrl) 
-            .client(okHttpClient) 
+            .baseUrl(currentEnvironment.baseUrl)
+            .client(okHttpClient)
             .addConverterFactory(MoshiConverterFactory.create(moshi))
             .build()
             .create(ApiService::class.java)
