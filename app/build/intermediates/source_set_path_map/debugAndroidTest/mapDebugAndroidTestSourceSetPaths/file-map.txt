@@ -1,6 +1,0 @@
-com.example.paymentdemoandroid.test.app-annotation-experimental-1.3.0-0 /Users/samfrench/.gradle/caches/8.11.1/transforms/5ca7fba282e4ec1f7772a666f6e4974e/transformed/annotation-experimental-1.3.0/res
-com.example.paymentdemoandroid.test.app-core-1.5.0-1 /Users/samfrench/.gradle/caches/8.11.1/transforms/7d5dd884b260b28ce3ee22c52180ef27/transformed/core-1.5.0/res
-com.example.paymentdemoandroid.test.app-androidTest-2 /Users/samfrench/Developer/tokenio-android-webview-sdk-APE-4296-webview-android/app/build/generated/res/resValues/androidTest/debug
-com.example.paymentdemoandroid.test.app-mergeDebugAndroidTestResources-3 /Users/samfrench/Developer/tokenio-android-webview-sdk-APE-4296-webview-android/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
-com.example.paymentdemoandroid.test.app-mergeDebugAndroidTestResources-4 /Users/samfrench/Developer/tokenio-android-webview-sdk-APE-4296-webview-android/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
-com.example.paymentdemoandroid.test.app-debugAndroidTest-5 /Users/samfrench/Developer/tokenio-android-webview-sdk-APE-4296-webview-android/app/build/intermediates/merged_res/debugAndroidTest/mergeDebugAndroidTestResources

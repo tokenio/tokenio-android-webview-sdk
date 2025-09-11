@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="app_name">PaymentDemoAndroid</string>
-    <style name="Base.Theme.PaymentDemoAndroid" parent="Theme.Material3.DayNight.NoActionBar">
-        
-        
-    </style>
-    <style name="Theme.PaymentDemoAndroid" parent="Base.Theme.PaymentDemoAndroid"/>
-</resources>

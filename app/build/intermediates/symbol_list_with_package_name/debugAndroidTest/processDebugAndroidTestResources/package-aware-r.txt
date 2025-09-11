@@ -1,3 +1,0 @@
-com.example.paymentdemoandroid.test
-style WhiteBackgroundDialogTheme
-style WhiteBackgroundTheme
