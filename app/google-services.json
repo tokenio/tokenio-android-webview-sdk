@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "594624484851",
+    "project_id": "token-webview-testapp",
+    "storage_bucket": "token-webview-testapp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:594624484851:android:5c60372b85b2112a13ae86",
+        "android_client_info": {
+          "package_name": "com.example.paymentdemoandroid"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiyWck0Ov84NzSnBu5APYQSirL3wyp3bk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
